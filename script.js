@@ -20,14 +20,14 @@ document.querySelector("#buttonSubmit").addEventListener("click",() => {
   document.getElementById("result").style.display= "block";
 //Déclare les variables à retenir
 var name = document.getElementById("name").value;
-var pouvoir = document.getElementById("power").value;
+var power = document.getElementById("power").value;
 var motivation = document.getElementById("motivation").value;
-var projet = document.getElementById("project").value;
+var project = document.getElementById("project").value;
 //Ecrit le résultat
 document.querySelector("#resName").innerHTML = '<h1>You are : ' + name + '</h1>';
-document.querySelector("#resPower").innerHTML = '<h2>Power :'  + pouvoir + '</h2>';
+document.querySelector("#resPower").innerHTML = '<h2>Power :'  + power + '</h2>';
 document.querySelector("#resMotivation").innerHTML = '<p>Motivation :' + motivation + '</p>';
-document.querySelector("#resProject").innerHTML = '<p>Project :' + projet + '</p>';
+document.querySelector("#resProject").innerHTML = '<p>Project :' + project + '</p>';
 });
 //Fonction pour effacer les champs du formulaire
 function resetForm(){
